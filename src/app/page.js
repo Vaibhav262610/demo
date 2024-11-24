@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,8 +9,9 @@ export default function Home() {
         <h2 className="">first of all I deeply APPOLOGIZE</h2>
         <h2 className="font-semibold">I know I&apos;m stupid</h2>
         <h2>but the fact is I really MISSED you everyday</h2>
-        
+        <Link href='/gif'>
         <button className="mt-24 text-2xl font-semibold border-2 hover:bg-black hover:text-white border-black py-2 px-4 text-gray-600">NEXT</button>
+        </Link>
       <h2>CLICK NEXT</h2>
       </div>
 
