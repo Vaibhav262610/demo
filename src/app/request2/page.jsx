@@ -9,7 +9,7 @@ const page = () => {
         <h2 className='text-2xl mt-24 font-semibold text-center'>And I want you in MY LIFE FOREVER <br/> not like a gf but as a FRIEND 💖</h2>
         <h1 className='mt-24'>So, will you please come again in my life like before ?😭</h1>
         <div className='flex gap-20 flex-col'>
-        <Link href='/yayy'>
+        <Link href='/confirm'>
         <button className="text-2xl font-semibold border-2 hover:bg-black hover:text-white border-black py-2 px-4 text-gray-600">YES</button>
         </Link>
         </div>
