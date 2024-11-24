@@ -12,6 +12,7 @@ const page = () => {
         <Link href='/yayy'>
         <button className="text-2xl font-semibold border-2 hover:bg-black hover:text-white border-black py-2 px-4 text-gray-600">YES</button>
         </Link>
+        <p>There is not a option like NO 😤</p>
         </div>
     </div>
   )
