@@ -8,20 +8,20 @@ const page = () => {
   action="https://formspree.io/f/xyzydjzk"
   method="POST"
 >
-  <label className='text-center text-xl flex flex-col gap-3 font-semibold'>
+  <label className='text-center text-xl justify-center items-center flex flex-col gap-3 '>
     Did you forgive me  ????? 😭 (please say yes)
-    <input name="message" className='p-2 text-sm bg-transparent border border-black text-black' placeholder='Enter your answer here..'/>
+    <input name="message" className='p-2 outline-none text-sm bg-transparent  w-[370px] border border-black text-black' placeholder='Enter your answer here..'/>
   </label>
-  <label className='text-center text-xl flex flex-col gap-3 font-semibold'>
+  <label className='text-center text-xl justify-center items-center flex flex-col gap-3 '>
     Will you come again in my life ? 🛐
-    <input name="message" className='p-2 text-sm bg-transparent border border-black text-black' placeholder='Enter your answer here..'/>
+    <input name="message" className='p-2 text-sm bg-transparent outline-none w-[370px] border border-black text-black' placeholder='Enter your answer here..'/>
   </label>
-  <label className='text-xl text-center flex flex-col gap-3 font-semibold'>
+  <label className='text-xl justify-center items-center text-center flex flex-col gap-3 '>
     If you wanna send a msg here u can otherwise DM me 😭🙏
-    <textarea className='p-2 text-sm bg-transparent border border-black text-black' placeholder='Enter your answer here..' name="message"></textarea>
+    <textarea className='p-2 text-sm bg-transparent outline-none w-[370px] border border-black text-black' placeholder='Enter your answer here..' name="message"></textarea>
   </label>
-  <button type='submit' className="mt-24 text-2xl font-semibold border-2 hover:bg-black hover:text-white border-black py-2 px-4 text-gray-600">NEXT</button>
 </form>
+  <button type='submit' className="mt-24 w-fit text-2xl font-semibold border-2 hover:bg-black hover:text-white border-black py-2 px-4 text-gray-600">NEXT</button>
     </div>
   )
 }
