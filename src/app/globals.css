@@ -4,4 +4,56 @@
 
 body{
   background-color: rgb(237, 180, 189);
+  font-family: 'Gilroy-Medium', sans-serif;
+}
+
+h1{
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.text{
+  font-family: 'Gilroy-Light', sans-serif;
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: local('Gilroy-Bold'), url(../fonts/Gilroy-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: local('Gilroy-Medium'), url(../fonts/Gilroy-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: local('Gilroy-Light'), url(../fonts/Gilroy-Light.ttf) format('truetype');
+}
+
+
+.element {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    margin-left: 70px;
+    margin-top: 0px;
+  }
+  25% {
+    margin-left: 0px;
+    margin-top: -15px;
+  }
+  50% {
+    margin-left: -70px;
+    margin-top: 0px;
+  }
+  75% {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  100% {
+    margin-left: 70px;
+    margin-top: 0px;
+  }
 }
