@@ -32,7 +32,7 @@ h1{
 
 
 .element {
-  animation: pulse 5s infinite;
+  animation: pulse 7s infinite;
 }
 
 @keyframes pulse {

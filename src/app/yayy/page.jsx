@@ -1,8 +1,11 @@
 import React from 'react'
 
 const page = () => {
+
+
   return (
     <div className='h-screen w-full flex flex-col justify-center items-center'>
+        <h1 className='text-8xl mb-16 element'>🙏</h1>
       <form
       className='flex justify-center items-center flex-col gap-8'
   action="https://formspree.io/f/xyzydjzk"
@@ -20,7 +23,7 @@ const page = () => {
     If you wanna send a msg here u can otherwise DM me 😭🙏
     <textarea className='p-2 text-sm bg-transparent outline-none w-[370px] border border-black text-black' placeholder='Enter your answer here..' name="message" required></textarea>
   </label>
-  <button type='submit' className="mt-24 w-fit text-2xl font-semibold border-2 hover:bg-black hover:text-white border-black py-2 px-4 text-gray-600">NEXT</button>
+  <button type='submit' className="mt-24 w-fit text-2xl font-semibold border-2 hover:bg-black hover:text-white border-black py-2 px-4 text-gray-600">SEND</button>
 </form>
     </div>  
   )
